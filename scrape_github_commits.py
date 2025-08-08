@@ -3,6 +3,7 @@ import re
 
 import requests
 import bs4
+import lxml
 
 def is_valid_github_url_format(url):
   """Checks if the URL string matches common GitHub URL formats."""
@@ -15,7 +16,11 @@ def is_valid_github_url_format(url):
   return False
 
 def scrape_github_commits(github_link):
+  url = github_link
   print("GitHub Link: ", github_link)
+  files = requests.get(url)
+  soup = bs4.BeautifulSoup(files.text, 'lxml')
+  print(soup)
 
 if __name__ == "__main__":
   if len(sys.argv) != 2:

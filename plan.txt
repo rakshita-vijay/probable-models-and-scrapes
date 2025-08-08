@@ -1,4 +1,5 @@
-1. web scraping - github
+1. web scraping - github - why commit scraping anyway??? - only readme and contri section
+                  oh wait, to see who commits whom
 2. web scraping - arxiv
 3. web scraping - researchgate
 4. web scraping - google scholar
