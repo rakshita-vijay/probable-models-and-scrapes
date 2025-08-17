@@ -9,3 +9,8 @@
 7. feed test cases into shell script
 
 8. agentic ai for designation / job category
+
+9. first i have to check if readme is there
+10. run the code against test cases
+11. get summarized version of code
+12. then check readme if it satisfies the requirements
